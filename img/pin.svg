@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="35" height="49" viewBox="0 0 35 49">
+    <defs>
+        <filter id="prefix__a" width="560%" height="412.9%" x="-230%" y="-77%" filterUnits="objectBoundingBox">
+            <feMorphology in="SourceAlpha" radius="8.5" result="shadowSpreadOuter1"/>
+            <feOffset dy="36" in="shadowSpreadOuter1" result="shadowOffsetOuter1"/>
+            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="16"/>
+            <feColorMatrix in="shadowBlurOuter1" result="shadowMatrixOuter1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.5 0"/>
+            <feOffset in="SourceAlpha" result="shadowOffsetOuter2"/>
+            <feGaussianBlur in="shadowOffsetOuter2" result="shadowBlurOuter2" stdDeviation="2.5"/>
+            <feColorMatrix in="shadowBlurOuter2" result="shadowMatrixOuter2" values="0 0 0 0 0.40197577 0 0 0 0 0.40197577 0 0 0 0 0.40197577 0 0 0 0.49333479 0"/>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"/>
+                <feMergeNode in="shadowMatrixOuter2"/>
+            </feMerge>
+        </filter>
+        <path id="prefix__b" d="M342.5 291c6.904 0 12.5 5.61 12.5 12.531 0 4.614-4.07 13.649-12.21 27.103-8.526-13.454-12.79-22.489-12.79-27.103 0-6.92 5.596-12.531 12.5-12.531zm.305 7.317c-3.031 0-5.488 2.457-5.488 5.488 0 3.03 2.457 5.488 5.488 5.488 3.03 0 5.488-2.457 5.488-5.488 0-3.031-2.457-5.488-5.488-5.488z"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd" transform="translate(-325 -286)">
+        <use fill="#000" filter="url(#prefix__a)" xlink:href="#prefix__b"/>
+        <use fill="#00857D" xlink:href="#prefix__b"/>
+    </g>
+</svg>
